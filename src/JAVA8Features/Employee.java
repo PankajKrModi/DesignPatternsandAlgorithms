@@ -1,4 +1,4 @@
-package JavaBasic;
+package JAVA8Features;
 
 import java.util.Objects;
 

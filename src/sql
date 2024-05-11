@@ -1,0 +1,12 @@
+//find number of employee count in each department
+select department,count(*) as EmployeeDeptCount from Employee group by department order by EmployeeDeptCount asc;
+
+//retrieve duplicate records from table
+SELECT EmpID, EmpFname, Department COUNT(*)
+FROM EmployeeInfo GROUP BY EmpID, EmpFname, Department
+HAVING COUNT(*) > 1;
+
+select department,
+avg(salary) as avg_salary
+from employees
+group by department;

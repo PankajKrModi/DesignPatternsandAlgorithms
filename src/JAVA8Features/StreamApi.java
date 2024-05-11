@@ -1,4 +1,4 @@
-package JavaBasic;
+package JAVA8Features;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -89,6 +89,8 @@ public class StreamApi {
                                 list -> list.stream().max(Comparator.comparingDouble(Employee::getSalary))
                         )
                 )));
+
+
     }
 
 }
